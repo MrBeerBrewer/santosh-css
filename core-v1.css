@@ -78,5 +78,20 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+
+  /* --- Control touch --- */
+  touch-action: manipulation;
+
+  /* --- Set highlight color --- */
+  -webkit-tap-highlight-color: transparent;
+
+  /* --- Control scrolling --- */
+  scroll-behavior: smooth;
+
+  /* --- Set text decoration --- */
+  text-decoration: none;
+
+  /* --- Set Word Break --- */
+  word-break: break-all;
 }
 
