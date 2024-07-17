@@ -58,5 +58,25 @@ body {
 
   /* --- Set overflow of a block-level element --- */
   overflow-x: hidden;
+
+  /* --- Set Border --- */
+  border: 0;
+
+  /* --- Set Outline --- */
+  outline: 0;
+
+  /* --- Set Cursor --- */
+  cursor: default;
+  
+  /* --- Controls whether the user can select text --- */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /* --- Controls platform-specific styling --- */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
