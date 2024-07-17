@@ -10,3 +10,4 @@ To use Santosh-css, include the .css file in the HTML <link> tag. Here’s an ex
 <head>
   <link rel="stylesheet" href="https://github.com/MrBeerBrewer/santosh-css/core-v1.css">
 </head>
+URL to include: https://github.com/MrBeerBrewer/santosh-css/core-v1.css
