@@ -1,8 +1,46 @@
 /* These rules will then be applied to all elements that are placed inside the opening and closing <html> tags that you added to the page */
-body {
 
-  font-family: Arial, sans-serif; /* Define what font and typeface to use. */
-  background: linear-gradient(to right, #ff0000, #0000ff); /* Customize the linear gradient via my website : https://www.click1.top/2024/07/gradient-generator.html */
-  font-size: 18px; /* Control size of body font */
-  color: #f1f1f1; /* Control color of body font. f1f1f1 is white. */
+/* --- Box-Sizing Border Box --- */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
+
+body {
+  /* --- Margin and Padding Reset --- */
+  margin: 0;
+  padding: 0;
+
+  /* --- Set Font Family --- */
+  font-family: sans-serif;
+
+  /* --- Set Font size --- */
+  font-size: 100%;
+
+  /* --- Set line height --- */
+  line-height: 1.5;
+
+  /* --- Set how text is rendered --- */
+  /* I might remove this rule for more info, take a look at: https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth 
+  Antialiasing is a technique used in computer graphics to remove the aliasing effect. 
+  The aliasing effect is the appearance of jagged edges or “jaggies” in a rasterized image (an image rendered using pixels).
+  */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* --- Set Background Color --- */
+  background-color: #fff;
+
+  /* --- Set Background gradient --- */
+  /* Customize the linear gradient via my website : https://www.click1.top/2024/07/gradient-generator.html */
+  background: linear-gradient(to right, #ff1, #ff3);
+
+  /* --- Set Color --- */
+  color: #fff;
+
+  /* --- Set text alignment --- */
+  text-align: left;
+
+  /* --- Set overflow of a block-level element --- */
+  overflow-x: hidden;
+}
+
