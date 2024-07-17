@@ -40,6 +40,22 @@ body {
   /* --- Set text alignment --- */
   text-align: left;
 
+  /* --- Set width and height --- */
+  width: 100%;
+  height: 100%;
+
+  /* --- Set Vertical Alignment to baseline. Default behaviour --- */
+  vertical-align: baseline;
+
+  /* --- Set Word Wrap to break long words --- */
+  word-wrap: break-word;
+
+  /* --- Set Position according to normal flow --- */
+  position: relative;
+
+  /* --- Set Box Shadow around element's frame --- */
+  box-shadow: none;
+
   /* --- Set overflow of a block-level element --- */
   overflow-x: hidden;
 }
