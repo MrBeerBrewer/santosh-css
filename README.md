@@ -8,6 +8,6 @@ How Do I Use This?
 To use Santosh-css, include the .css file in the HTML <link> tag. Here’s an example:
 
 <head>
-  <link rel="stylesheet" href="https://github.com/MrBeerBrewer/santosh-css/core-v1.css">
+  <link rel="stylesheet" href="https://mrbeerbrewer.github.io/santosh-css/core-v1.css">
 </head>
-URL to include: [https://github.com/MrBeerBrewer/santosh-css/core-v1.css](https://mrbeerbrewer.github.io/santosh-css/core-v1.css)
+URL to include: https://mrbeerbrewer.github.io/santosh-css/core-v1.css
