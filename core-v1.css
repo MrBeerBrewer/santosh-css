@@ -1,0 +1,7 @@
+/* These rules will then be applied to all elements that are placed inside the opening and closing <html> tags that you added to the page */
+body {
+/* Define what font and typeface to use. */
+  font-family: Arial, sans-serif;
+  /* Customize the linear gradient via my website : https://www.click1.top/2024/07/gradient-generator.html */
+  background: linear-gradient(to right, #ff0000, #0000ff);
+}
