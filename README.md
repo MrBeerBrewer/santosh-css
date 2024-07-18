@@ -7,7 +7,9 @@ A repo, short for repository, contains all project files, including the revision
 How Do I Use This?
 To use Santosh-css, include the .css file in the HTML <link> tag. Here’s an example:
 
-<head>
-  <link rel="stylesheet" href="https://mrbeerbrewer.github.io/santosh-css/core-v1.css">
-</head>
-URL to include: https://mrbeerbrewer.github.io/santosh-css/core-v1.css
+#URL(s) to include
+##Core/Reset:
+https://mrbeerbrewer.github.io/santosh-css/core-v1.css
+
+##Headers:
+https://mrbeerbrewer.github.io/santosh-css/headers.css
