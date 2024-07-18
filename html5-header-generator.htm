@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Header Generator</title>
+    <link rel="stylesheet" href="https://mrbeerbrewer.github.io/santosh-css/core-v1.css">
+    <link rel="stylesheet" href="https://mrbeerbrewer.github.io/santosh-css/headers.css">
+    <style>
+        .preview {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Simple Header Generator</h1>
+    <p>Enter text to generate HTML headers (h1 to h6) with a constant class and unique IDs. </p>
+    
+    <input type="text" id="headerText" placeholder="Enter your text here" />
+    <button onclick="generateHeaders()">Generate Headers</button>
+    
+    <p>Copy and paste the generated code into your HTML5 document.</p> 
+    <div id="output"></div>
+    <div class="preview" id="preview"></div>
+    
+    <script>
+        function generateHeaders() {
+            const text = document.getElementById('headerText').value || "Santosh";
+            const outputDiv = document.getElementById('output');
+            const previewDiv = document.getElementById('preview');
+            outputDiv.innerHTML = ''; // Clear previous output
+            previewDiv.innerHTML = ''; // Clear previous preview
+
+            for (let i = 1; i <= 6; i++) {
+                const code = `<h${i} class="santosh-css-header" id="santosh-css-h${i}">${text}</h${i}>`;
+                const codeElement = document.createElement('div');
+                codeElement.textContent = code;
+                
+                outputDiv.appendChild(codeElement);
+
+                const previewElement = document.createElement(`h${i}`);
+                previewElement.className = 'santosh-css-header';
+                previewElement.id = `santosh-css-h${i}`;
+                previewElement.textContent = text;
+
+                previewDiv.appendChild(previewElement);
+            }
+        }
+    </script>
+
+</body>
+</html>
