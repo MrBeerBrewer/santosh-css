@@ -17,3 +17,7 @@ Core/Reset:
 
 Headers:
 - [Headers CSS](https://mrbeerbrewer.github.io/santosh-css/headers.css)
+
+Text:
+- [Text CSS](https://mrbeerbrewer.github.io/santosh-css/text.css)
+
