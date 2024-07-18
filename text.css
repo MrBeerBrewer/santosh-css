@@ -1,0 +1,730 @@
+/* Santosh Text Rules CSS */
+
+/* Font Family */
+.santosh-font-family {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Font Size */
+.santosh-font-size {
+    font-size: 2em;
+}
+
+/* Font Weight */
+.santosh-bold {
+    font-weight: bold;
+}
+
+/* Font Style */
+.santosh-italic {
+    font-style: italic;
+}
+
+/* Text Color */
+.santosh-text-red {
+    color: red;
+}
+
+/* Text Alignment */
+.santosh-text-center {
+    text-align: center;
+}
+
+/* Text Decoration */
+.santosh-underline {
+    text-decoration: underline;
+}
+
+/* Letter Spacing */
+.santosh-letter-spacing {
+    letter-spacing: 1px;
+}
+
+/* Line Height */
+.santosh-line-height {
+    line-height: 1.5;
+}
+
+/* Text Transform */
+.santosh-capitalize {
+    text-transform: capitalize;
+}
+
+/* Text Overflow */
+.santosh-overflow-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Word Spacing */
+.santosh-word-spacing {
+    word-spacing: 2px;
+}
+
+/* Text Shadow */
+.santosh-text-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Text Indent */
+.santosh-text-indent {
+    text-indent: 20px;
+}
+
+/* Text Decoration Style */
+.santosh-strike-through {
+    text-decoration: line-through;
+}
+
+/* Text Justify */
+.santosh-justify-text {
+    text-align: justify;
+}
+
+/* Text Wrap */
+.santosh-text-wrap {
+    white-space: normal;
+}
+
+/* Text Rendering */
+.santosh-text-rendering {
+    text-rendering: optimizeLegibility;
+}
+
+/* Text Outline */
+.santosh-text-outline {
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+}
+
+/* Text Direction */
+.santosh-text-direction {
+    direction: rtl; /* Right-to-left */
+}
+
+/* Text Shadow Color */
+.santosh-text-shadow-color {
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.5);
+}
+
+/* Text Underline Style */
+.santosh-underline-style {
+    text-decoration: underline dotted;
+}
+
+/* Text Underline Color */
+.santosh-underline-color {
+    text-decoration-color: blue;
+}
+
+/* Font Smoothing */
+.santosh-font-smoothing {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hyphens */
+.santosh-hyphens {
+    hyphens: auto;
+}
+
+/* Text Transform to Uppercase */
+.santosh-uppercase {
+    text-transform: uppercase;
+}
+
+/* Text Transform to Lowercase */
+.santosh-lowercase {
+    text-transform: lowercase;
+}
+
+/* Text Transform to Initial Caps */
+.santosh-initial-caps {
+    text-transform: initial;
+}
+
+/* Text Transform to Full-width */
+.santosh-full-width {
+    text-transform: full-width;
+}
+
+/* Justify Word Spacing */
+.santosh-justify-word-spacing {
+    text-justify: inter-word;
+}
+
+/* Justify Letter Spacing */
+.santosh-justify-letter-spacing {
+    text-justify: inter-letter;
+}
+
+/* Indent By Percents */
+.santosh-indent-percents {
+    text-indent: 40%;
+}
+
+/* Indent To Hyphen */
+.santosh-indent-to-hyphen {
+    text-indent: hyphen;
+}
+
+/* Align Top */
+.santosh-align-top {
+    vertical-align: top;
+}
+
+/* Align Middle */
+.santosh-align-middle {
+    vertical-align: middle;
+}
+
+/* Align Bottom */
+.santosh-align-bottom {
+    vertical-align: bottom;
+}
+
+/* Align Justify */
+.santosh-align-justify {
+    text-align: justify;
+}
+
+/* Overflow */
+.santosh-overflow-wrap {
+    overflow-wrap: break-word;
+}
+
+/* Letter Spacing */
+.santosh-letterspacing-two {
+    letter-spacing: 0.2em;
+}
+
+/* Line Height */
+.santosh-lineheight-two {
+    line-height: 1.8;
+}
+
+/* Text Outline */
+.santosh-outline {
+    outline: 2px solid #000;
+}
+
+/* Text Shadow */
+.santosh-shadow {
+    box-shadow: 2px 2px 5px #888888;
+}
+
+/* Text direction */
+.santosh-text-dir-rtl {
+    direction: rtl;
+}
+
+/* Text direction */
+.santosh-text-dir-ltr {
+    direction: ltr;
+}
+
+/* Text order */
+.santosh-order-right {
+    order: 2;
+}
+
+/* Text order */
+.santosh-order-left {
+    order: 1;
+}
+
+/* Text order */
+.santosh-order-1 {
+    order: 1;
+}
+
+/* Text order */
+.santosh-order-3 {
+    order: 3;
+}
+
+/* Text order */
+.santosh-order-4 {
+    order: 4;
+}
+
+/* Text order */
+.santosh-order-5 {
+    order: 5;
+}
+
+/* Text order */
+.santosh-order-6 {
+    order: 6;
+}
+
+/* Text order */
+.santosh-order-7 {
+    order: 7;
+}
+
+/* Text order */
+.santosh-order-8 {
+    order: 8;
+}
+
+/* Text order */
+.santosh-order-9 {
+    order: 9;
+}
+
+/* Text order */
+.santosh-order-10 {
+    order: 10;
+}
+
+/* Text order */
+.santosh-order-11 {
+    order: 11;
+}
+
+/* Text order */
+.santosh-order-12 {
+    order: 12;
+}
+
+/* Text order */
+.santosh-order-13 {
+    order: 13;
+}
+
+/* Text order */
+.santosh-order-14 {
+    order: 14;
+}
+
+/* Text order */
+.santosh-order-15 {
+    order: 15;
+}
+
+/* Text order */
+.santosh-order-16 {
+    order: 16;
+}
+
+/* Text order */
+.santosh-order-17 {
+    order: 17;
+}
+
+/* Text order */
+.santosh-order-18 {
+    order: 18;
+}
+
+/* Text order */
+.santosh-order-19 {
+    order: 19;
+}
+
+/* Text order */
+.santosh-order-20 {
+    order: 20;
+}
+
+/* Text order */
+.santosh-order-21 {
+    order: 21;
+}
+
+/* Text order */
+.santosh-order-22 {
+    order: 22;
+}
+
+/* Text order */
+.santosh-order-23 {
+    order: 23;
+}
+
+/* Text order */
+.santosh-order-24 {
+    order: 24;
+}
+
+/* Text order */
+.santosh-order-25 {
+    order: 25;
+}
+
+/* Text order */
+.santosh-order-26 {
+    order: 26;
+}
+
+/* Text order */
+.santosh-order-27 {
+    order: 27;
+}
+
+/* Text order */
+.santosh-order-28 {
+    order: 28;
+}
+
+/* Text order */
+.santosh-order-29 {
+    order: 29;
+}
+
+/* Text order */
+.santosh-order-30 {
+    order: 30;
+}
+
+/* Text order */
+.santosh-order-31 {
+    order: 31;
+}
+
+/* Text order */
+.santosh-order-32 {
+    order: 32;
+}
+
+/* Text order */
+.santosh-order-33 {
+    order: 33;
+}
+
+/* Text order */
+.santosh-order-34 {
+    order: 34;
+}
+
+/* Text order */
+.santosh-order-35 {
+    order: 35;
+}
+
+/* Text order */
+.santosh-order-36 {
+    order: 36;
+}
+
+/* Text order */
+.santosh-order-37 {
+    order: 37;
+}
+
+/* Text order */
+.santosh-order-38 {
+    order: 38;
+}
+
+/* Text order */
+.santosh-order-39 {
+    order: 39;
+}
+
+/* Text order */
+.santosh-order-40 {
+    order: 40;
+}
+
+/* Text order */
+.santosh-order-41 {
+    order: 41;
+}
+
+/* Text order */
+.santosh-order-42 {
+    order: 42;
+}
+
+/* Text order */
+.santosh-order-43 {
+    order: 43;
+}
+
+/* Text order */
+.santosh-order-44 {
+    order: 44;
+}
+
+/* Text order */
+.santosh-order-45 {
+    order: 45;
+}
+
+/* Text order */
+.santosh-order-46 {
+    order: 46;
+}
+
+/* Text order */
+.santosh-order-47 {
+    order: 47;
+}
+
+/* Text order */
+.santosh-order-48 {
+    order: 48;
+}
+
+/* Text order */
+.santosh-order-49 {
+    order: 49;
+}
+
+/* Text order */
+.santosh-order-50 {
+    order: 50;
+}
+
+/* Text order */
+.santosh-order-51 {
+    order: 51;
+}
+
+/* Text order */
+.santosh-order-52 {
+    order: 52;
+}
+
+/* Text order */
+.santosh-order-53 {
+    order: 53;
+}
+
+/* Text order */
+.santosh-order-54 {
+    order: 54;
+}
+
+/* Text order */
+.santosh-order-55 {
+    order: 55;
+}
+
+/* Text order */
+.santosh-order-56 {
+    order: 56;
+}
+
+/* Text order */
+.santosh-order-57 {
+    order: 57;
+}
+
+/* Text order */
+.santosh-order-58 {
+    order: 58;
+}
+
+/* Text order */
+.santosh-order-59 {
+    order: 59;
+}
+
+/* Text order */
+.santosh-order-60 {
+    order: 60;
+}
+
+/* Text order */
+.santosh-order-61 {
+    order: 61;
+}
+
+/* Text order */
+.santosh-order-62 {
+    order: 62;
+}
+
+/* Text order */
+.santosh-order-63 {
+    order: 63;
+}
+
+/* Text order */
+.santosh-order-64 {
+    order: 64;
+}
+
+/* Text order */
+.santosh-order-65 {
+    order: 65;
+}
+
+/* Text order */
+.santosh-order-66 {
+    order: 66;
+}
+
+/* Text order */
+.santosh-order-67 {
+    order: 67;
+}
+
+/* Text order */
+.santosh-order-68 {
+    order: 68;
+}
+
+/* Text order */
+.santosh-order-69 {
+    order: 69;
+}
+
+/* Text order */
+.santosh-order-70 {
+    order: 70;
+}
+
+/* Text order */
+.santosh-order-71 {
+    order: 71;
+}
+
+/* Text order */
+.santosh-order-72 {
+    order: 72;
+}
+
+/* Text order */
+.santosh-order-73 {
+    order: 73;
+}
+
+/* Text order */
+.santosh-order-74 {
+    order: 74;
+}
+
+/* Text order */
+.santosh-order-75 {
+    order: 75;
+}
+
+/* Text order */
+.santosh-order-76 {
+    order: 76;
+}
+
+/* Text order */
+.santosh-order-77 {
+    order: 77;
+}
+
+/* Text order */
+.santosh-order-78 {
+    order: 78;
+}
+
+/* Text order */
+.santosh-order-79 {
+    order: 79;
+}
+
+/* Text order */
+.santosh-order-80 {
+    order: 80;
+}
+
+/* Text order */
+.santosh-order-81 {
+    order: 81;
+}
+
+/* Text order */
+.santosh-order-82 {
+    order: 82;
+}
+
+/* Text order */
+.santosh-order-83 {
+    order: 83;
+}
+
+/* Text order */
+.santosh-order-84 {
+    order: 84;
+}
+
+/* Text order */
+.santosh-order-85 {
+    order: 85;
+}
+
+/* Text order */
+.santosh-order-86 {
+    order: 86;
+}
+
+/* Text order */
+.santosh-order-87 {
+    order: 87;
+}
+
+/* Text order */
+.santosh-order-88 {
+    order: 88;
+}
+
+/* Text order */
+.santosh-order-89 {
+    order: 89;
+}
+
+/* Text order */
+.santosh-order-90 {
+    order: 90;
+}
+
+/* Text order */
+.santosh-order-91 {
+    order: 91;
+}
+
+/* Text order */
+.santosh-order-92 {
+    order: 92;
+}
+
+/* Text order */
+.santosh-order-93 {
+    order: 93;
+}
+
+/* Text order */
+.santosh-order-94 {
+    order: 94;
+}
+
+/* Text order */
+.santosh-order-95 {
+    order: 95;
+}
+
+/* Text order */
+.santosh-order-96 {
+    order: 96;
+}
+
+/* Text order */
+.santosh-order-97 {
+    order: 97;
+}
+
+/* Text order */
+.santosh-order-98 {
+    order: 98;
+}
+
+/* Text order */
+.santosh-order-99 {
+    order: 99;
+}
+
+/* Text order */
+.santosh-order-100 {
+    order: 100;
+}
